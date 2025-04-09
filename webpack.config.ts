@@ -1,7 +1,7 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-const PUBLIC_PATH = process.env.PUBLIC_PATH || path.resolve(__dirname, 'dist');
+const PUBLIC_PATH = '/hebrew-touch-typing/'; 
 
 module.exports = {
   mode: 'development',
@@ -9,7 +9,7 @@ module.exports = {
   output: {
     filename: 'main.bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: PUBLIC_PATH,
+    publicPath: /hebrew-touch-typing/,
   },
   devServer: {
     static: {
