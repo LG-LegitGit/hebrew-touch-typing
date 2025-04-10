@@ -15,5 +15,5 @@ const privateCarText = [
 
 export const privateCarExercise = {
   text: privateCarText,
-  label: 'המכונית הפרטית',
+  label: 'המכונית הפרטית - Private Car',
 };

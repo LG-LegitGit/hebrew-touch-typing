@@ -11,5 +11,5 @@ const keyboardText = [
 
 export const keyboardExercise = {
   text: keyboardText,
-  label: 'המקלדת',
+  label: 'המקלדת - Keyboard',
 };

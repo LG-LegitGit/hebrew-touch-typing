@@ -18,14 +18,14 @@ const SideBar: React.FC = () => {
 
   return (
     <div className={styles.root}>
-      <h1>הקלדה עיוורת</h1>
+      <h1>הקלדה עיוורת Touch Typing</h1>
       <ExerciseList
         className={styles.list}
         title="שיעורי אותיות"
-        emoji="⌨️"
+        emoji="⌨️ Excercise List"
         exercises={lettersExercises}
       />
-      <ExerciseList title="טקסטים" emoji="️📖" exercises={textExercises} />
+      <ExerciseList title="טקסטים" emoji="️📖 Excercises" exercises={textExercises} />
     </div>
   );
 };

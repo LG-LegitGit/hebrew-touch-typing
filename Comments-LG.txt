@@ -1,3 +1,45 @@
+Updated root.scss
+
+@import '../../../public/css/typography.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Heebo-Regular';
+  font-size: 16px;
+  background: white;
+  color: #410b13;
+}
+
+.root {
+  display: flex;
+  gap: min(20vw, 200px);
+  flex-direction: row-reverse;
+}
+
+.lamediYahTeachesTyping { /* Fixed the class name */
+  font-family: 'Heebo-Bold';
+  position: absolute;
+  left: 61px;
+  top: 40px;
+  outline: none;
+  color: #410b13;
+  text-decoration: none;
+
+  h3 {
+    font-size: 1.125em;
+  }
+}
+
+
+Updated package.json
+
 {
   "name": "hebrew-touch-typing",
   "version": "1.0.1",
@@ -63,3 +105,43 @@
     "ts-node": "^10.1.0"
   }
 }
+
+
+
+
+### Changes made:
+
+1. **`homepage` field**: This is crucial for GitHub Pages, as it ensures all relative URLs (like for images, JS, CSS, etc.) are correctly adjusted for the deployed site.
+
+    Replace `"https://yourusername.github.io/hebrew-touch-typing"` with your actual GitHub Pages URL (this should follow the pattern `https://username.github.io/repository-name`).
+
+2. **`predeploy` and `deploy` scripts**:
+
+    - The `predeploy` script will automatically build the app with `npm run build`.
+    - The `deploy` script will push the `build` folder to the `gh-pages` branch of your repository using the `gh-pages` package.
+
+### To deploy your app to GitHub Pages:
+
+1. **Build your app**:
+
+    Run:
+
+    ```bash
+    npm run build
+    ```
+
+    This will generate the optimized production build in the `build` folder.
+
+2. **Deploy to GitHub Pages**:
+
+    Run:
+
+    ```bash
+    npm run deploy
+    ```
+
+    This will push the contents of the `build` folder to the `gh-pages` branch of your repository. GitHub will automatically serve this branch as your GitHub Pages site.
+
+3. **Check your site**:
+
+    Visit `https://yourusername.github.io/hebrew-touch-typing` (replace with your GitHub Pages URL) to see your app live!

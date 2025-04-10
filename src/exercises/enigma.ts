@@ -11,5 +11,5 @@ const enigmaText = [
 
 export const enigmaExercise = {
   text: enigmaText,
-  label: 'אניגמה',
+  label: 'אניגמה - Enigma',
 };

@@ -15,5 +15,5 @@ const bicycleText = [
 
 export const bicycleExercise = {
   text: bicycleText,
-  label: 'האופניים',
+  label: 'האופניים — The Bicycle',
 };

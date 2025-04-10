@@ -9,12 +9,13 @@ const HeroSection = (): JSX.Element => {
   return (
     <div className={styles.emptyState}>
       <div className={styles.textContainer}>
-        <h1>האתר ללמוד בו הקלדה עיוורת בעברית</h1>
+        <h1>Learn to Type in Hebrew ללמוד להקליד בעברית</h1>
+
         <button
           className={styles.startButton}
           onClick={() => setSelectedExerciseNumber(0)}
         >
-          <span>התחל</span>
+          <span> Start התחל</span>
           <LeftArrow />
         </button>
       </div>
@@ -24,3 +25,4 @@ const HeroSection = (): JSX.Element => {
 };
 
 export default HeroSection;
+

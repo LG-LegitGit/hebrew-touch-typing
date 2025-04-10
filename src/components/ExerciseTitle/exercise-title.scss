@@ -1,23 +1,47 @@
+/* General container for the title */
 .root {
   display: flex;
-  flex-direction: row;
-  gap: 32px;
-  align-items: center;
+  flex-direction: row; /* Side by side layout */
+  gap: 32px; /* Space between elements */
+  align-items: center; /* Align vertically centered */
 }
 
+/* Title styling */
 .title {
   font-family: 'Heebo-Bold';
   letter-spacing: 2px;
   font-size: 3em;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between Hebrew and English titles */
 }
 
+/* Style for Hebrew text */
+.hebrewTitle {
+  direction: rtl; /* Right-to-left for Hebrew */
+  font-size: 2.8em; /* Size for Hebrew */
+  font-family: 'Heebo-Bold'; /* Same font family for consistency */
+  text-align: right;
+  margin-right: 10px; /* Adjust spacing between Hebrew and English text */
+}
+
+/* Style for English text */
+.englishTitle {
+  direction: ltr; /* Left-to-right for English */
+  font-size: 2.8em;
+  font-family: 'Arial', sans-serif; /* Use a typical font for English */
+  text-align: left;
+}
+
+/* Divider between the texts */
 .divider {
   height: 2.8em;
   width: 1px;
   background: rgba(0, 0, 0, 0.2);
 }
 
-.new-letters {
+/* Styling for the new letters container */
+.newletters {
   display: flex;
   flex-direction: row;
   gap: 12px;

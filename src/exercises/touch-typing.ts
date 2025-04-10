@@ -14,5 +14,5 @@ const touchTypingText = [
 
 export const touchTypingExercise = {
   text: touchTypingText,
-  label: 'הקלדה עיוורת',
+  label: 'הקלדה עיוורת - Touch Typing',
 };

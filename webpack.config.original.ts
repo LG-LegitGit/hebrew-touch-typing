@@ -1,22 +1,19 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-// Mimicking __dirname in ESM
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
+const PUBLIC_PATH = process.env.PUBLIC_PATH || path.resolve(__dirname, 'dist');
 
-const PUBLIC_PATH = process.env.PUBLIC_PATH || '/fast-typing'; // GitHub Pages base path
-
-export default {
+module.exports = {
   mode: 'development',
   entry: ['./src/index.tsx'],
   output: {
     filename: 'main.bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: PUBLIC_PATH, // Important for GitHub Pages
+    publicPath: PUBLIC_PATH,
   },
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'dist'),
+      directory: './dist',
     },
   },
   plugins: [
