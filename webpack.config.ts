@@ -1,19 +1,22 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-const PUBLIC_PATH = '/hebrew-touch-typing/'; 
+// Mimicking __dirname in ESM
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
-module.exports = {
+const PUBLIC_PATH = process.env.PUBLIC_PATH || '/fast-typing'; // GitHub Pages base path
+
+export default {
   mode: 'development',
   entry: ['./src/index.tsx'],
   output: {
     filename: 'main.bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: /hebrew-touch-typing/,
+    publicPath: PUBLIC_PATH, // Important for GitHub Pages
   },
   devServer: {
     static: {
-      directory: './dist',
+      directory: path.resolve(__dirname, 'dist'),
     },
   },
   plugins: [
