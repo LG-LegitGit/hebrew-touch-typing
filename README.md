@@ -1,8 +1,4 @@
-Yes, I see that the note about switching the keyboard layout was appropriately placed in the **Installation** section; however, it could be more prominent, and I can suggest modifying the **Getting Started** section title to improve the distinction between general prerequisites and the specific keyboard layout requirement.
-
-Here’s the revised version for clarity:
-
-### Updated Sample `README.md`
+### `README.md`
 
 ```markdown
 # 🖥️ LamediYah Teaches Typing
