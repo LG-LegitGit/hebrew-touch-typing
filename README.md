@@ -3,17 +3,19 @@
 ```markdown
 # 🖥️ LamediYah Teaches Typing
 
-Welcome to the **LamediYah Teaches Typing** project! This application is designed to improve your typing skills in Hebrew using a touch typing technique. Whether you’re a beginner or want to enhance your existing skills, this app provides engaging exercises to help you practice effectively.
+Welcome to the **LamediYah Teaches Typing** project! 
+
+This application is designed to improve your typing skills in Hebrew using a touch typing technique. 
+Whether you’re a beginner or want to enhance your existing skills, this app will help you practice effectively.
 
 ---
 ## Usage
 
 Follow the lessons in order for best results.
 
-<ol>
-  <li>Learn the keys positions and which fingers to hit each key with</li>
-  <li>Once the entire keyboard is covered, practice some real life texts from wikipedia</li>
-</ol>
+Learn the keys positions and which fingers to hit each key with
+Once the entire keyboard is covered, practice some real life texts from wikipedia
+
 ---
 
 ## 📦 Features
@@ -58,6 +60,7 @@ Make sure you have the following installed on your machine:
    ```
 
 Visit `http://localhost:8000` in your browser to view the application.
+(port may be different for your machine)
 
 ---
 
@@ -122,50 +125,3 @@ We welcome contributions to enhance this project! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
----
-
-🚀 Happy Typing! 🖊️
-```
-
-### Key Adjustments:
-- **Prominence**: I added a specific "Keyboard Layout Requirement" section to emphasize its importance. I've put it in bold text for better visibility.
-- **Clarity**: The wording has been adjusted slightly to make the requirement clear and obvious. 
-
-This should make it easier for users to notice the importance of switching to the Hebrew keyboard layout before using the application. If you have any further changes or suggestions, feel free to share!
-
-
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/LG-LegitGit/lamediyah-teaches-typing.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Run NPM 
-   ```
-   npm run dev
-   ```
-## Usage
-
-Follow the lessons in order for best results.
-
-<ol>
-  <li>Learn the keys positions and which fingers to hit each key with</li>
-  <li>Once the entire keyboard is covered, practice some real life texts from wikipedia</li>
-</ol>
-
-## Testing
-
-To run the tests simply run:
-
-```sh
-npm test
-```
