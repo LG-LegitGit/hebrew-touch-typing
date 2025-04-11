@@ -14,5 +14,5 @@ const computerScienceText = [
 
 export const computerScienceExercise = {
   text: computerScienceText,
-  label: ' מדעי המחשב - Computer Science',
+  label: 'מדעי המחשב Computer',
 };

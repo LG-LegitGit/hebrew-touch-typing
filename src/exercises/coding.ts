@@ -12,5 +12,5 @@ const codingText = [
 
 export const codingExercise = {
   text: codingText,
-  label: 'תכנות - Coding',
+  label: 'תכנות Coding',
 };

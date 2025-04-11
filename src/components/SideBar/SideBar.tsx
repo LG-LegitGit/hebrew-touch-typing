@@ -21,7 +21,7 @@ const SideBar: React.FC = () => {
       <h1>הקלדה עיוורת Touch Typing</h1>
       <ExerciseList
         className={styles.list}
-        title="שיעורי אותיות"
+        title="הקלדה עיוורת Touch Typing"
         emoji="⌨️ Excercise List"
         exercises={lettersExercises}
       />

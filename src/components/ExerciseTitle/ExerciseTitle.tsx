@@ -36,7 +36,7 @@ const ExerciseTitle = ({ className }: ExerciseTitleProps): JSX.Element | null =>
 
         <span className={styles.englishTitle}>
           {selectedExercise.type === ExerciseType.REVIEW
-            ? 'Lesson'
+            ? 'Review'
             : selectedExercise.type === ExerciseType.PRACTICE
             ? 'Practice'
             : selectedExercise.label}

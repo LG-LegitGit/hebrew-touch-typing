@@ -9,5 +9,5 @@ const hebrewOriginsText = [
 
 export const hebrewOriginsExercise = {
   text: hebrewOriginsText,
-  label: 'מקורות העברית - Hebrew Origins',
+  label: 'מקורות העברית Hebrew Origins',
 };

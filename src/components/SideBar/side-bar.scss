@@ -1,7 +1,8 @@
 .root {
-  min-width: 360px;
-  max-width: 20vw;
-  height: 100vh;
+  width: 100%;
+  max-width: 300px; // set max to what you think looks best
+  min-width: 300px;
+  height: 1000vh;
   padding: 40px 36px;
   background: #ffe8d6;
   display: flex;
@@ -11,7 +12,7 @@
 
 h1 {
   font-size: 36px;
-  font-family: 'Heebo-Bold';
+  font-family: 'Poppins-Thin';
 }
 
 .list {

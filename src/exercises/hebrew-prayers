@@ -1,0 +1,20 @@
+const hebrewPrayerText = [
+  'ברכות הללו נאמרות בפורים, ',
+  'ביום הנחת הגלגלים, ',
+  'להביא את השנה הבאה. ',
+  'הברכות נאמרות בערב, ',
+  'בפני כל ישראל. ',
+  'הנה, ',
+  'כל שנה טובה ',
+  'ומועצת שלום. ',
+  'אז ידברו בשמחה ',
+  'בחדו"א. ',
+  "וה'א-רח\"ל", // Use double quotes or escape the single quote
+  'יאיר ויברך. ',
+  'אמן. ',
+];
+
+export const hebrewPrayerTextExercise = {
+  text: hebrewPrayerText,
+  label: 'ברכות הללו Prayer of Hallel',
+};

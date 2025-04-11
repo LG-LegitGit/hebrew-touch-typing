@@ -9,7 +9,7 @@ const HebrewTouchTypingPage = (): React.ReactElement => {
   return (
     <div className={styles.root}>
       <a href="/" className={styles.lamediYahTeachesTyping}>
-        <h3>Lamediyah Teaches Typing / למדיה מלמדת הקלדה</h3>
+        <h3>LamediYah Teaches Typing / למדיה מלמדת הקלדה</h3>
       </a>
       <ExerciseProvider>
         <UserDataProvider>

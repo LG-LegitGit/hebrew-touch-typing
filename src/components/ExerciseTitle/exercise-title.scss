@@ -8,9 +8,9 @@
 
 /* Title styling */
 .title {
-  font-family: 'Heebo-Bold';
+  font-family: 'Poppins-Thin';
   letter-spacing: 2px;
-  font-size: 3em;
+  font-size: 1em;
   display: flex;
   align-items: center;
   gap: 10px; /* Space between Hebrew and English titles */
@@ -20,7 +20,7 @@
 .hebrewTitle {
   direction: rtl; /* Right-to-left for Hebrew */
   font-size: 2.8em; /* Size for Hebrew */
-  font-family: 'Heebo-Bold'; /* Same font family for consistency */
+  font-family: 'Poppins-Thin'; /* Same font family for consistency */
   text-align: right;
   margin-right: 10px; /* Adjust spacing between Hebrew and English text */
 }
@@ -28,7 +28,7 @@
 /* Style for English text */
 .englishTitle {
   direction: ltr; /* Left-to-right for English */
-  font-size: 2.8em;
+  font-size: 1.8em;
   font-family: 'Arial', sans-serif; /* Use a typical font for English */
   text-align: left;
 }
@@ -36,7 +36,7 @@
 /* Divider between the texts */
 .divider {
   height: 2.8em;
-  width: 1px;
+  width: 8px;
   background: rgba(0, 0, 0, 0.2);
 }
 
