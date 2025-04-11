@@ -6,7 +6,7 @@
 Welcome to the **LamediYah Teaches Typing** project! 
 
 This application is designed to improve your typing skills in Hebrew using a touch typing technique. 
-Whether you’re a beginner or want to enhance your existing skills, this app will help you practice effectively.
+Whether you’re a beginner or want to enhance your existing skills, this app will help you practice.
 
 ---
 ## Usage
